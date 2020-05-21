@@ -1,0 +1,16 @@
+.nav-link {float:right
+width: 100%}
+
+h2 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+section form {
+    border: black;
+}
+
+.footer {
+    background-color:grey
+}
