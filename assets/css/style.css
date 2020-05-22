@@ -5,7 +5,6 @@
 }
 
 body{
-background-image: url("../images/backgroundimg.jpg");
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -32,6 +31,21 @@ img {
 
 .container {
     background-color:white;
+}
+
+.header{
+height: 100vh;
+}
+
+.meteorengine{
+    position: absolute;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
 }
 
 
