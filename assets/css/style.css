@@ -1,40 +1,84 @@
-.lukeevans {
-    background-color:yellow;
-    height: 40px;
-    width: -20px;
-}
+
 
 body{
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-line-height: 200%;
-font-size: 18px;
+line-height: 100%;
+font-size: 20px;
 text-align: justify
+}
+
+.navbar-brand {
+    padding-left: 1rem;
+    background-color:yellowgreen;
+    background-size: 200px 100px;
+    color: black ;
+}
+
+.navbar-nav ul {
+    margin-left:auto;
+}
+
+.lukeevans {
+    background-color:yellowgreen;
+}
+.page-header {
+    padding-top:2%;
+    padding-bottom: 2%;
 }
 
 footer{
     background-color:grey;
    display: grid;
    text-align: center;
+   font-size: 14px;
+   line-height: 3rem;
 }
 
 p {
-    display:inline-start;
+    float:inline-start;
 }
 
 img {
     display:inline-block;
     float:left;
+    margin-right:2%;
 }
 
 .container {
     background-color:white;
+    margin:5%;
+    margin-left: 1rem;
+    padding-right: 1rem;
 }
+
+.row {
+    margin-top:2%;
+}
+
+
 
 .header{
 height: 100vh;
+}
+
+button {
+    margin-bottom: 1rem;
+}
+
+.card {
+    margin: 3%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+
+h1 {
+    color: yellowgreen;
+    
 }
 
 .meteorengine{
