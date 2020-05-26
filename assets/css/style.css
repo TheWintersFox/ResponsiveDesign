@@ -8,24 +8,13 @@ body {
     text-align: justify
 }
 
-.navbar-brand {
-    padding-left: 1rem;
-    background-color: yellowgreen;
-    background-size: 100px 100px;
-    color: black;
-}
-
-nav navbar {
-    border-bottom: 6px solid orangered;
-}
-
 .navbar-nav ul {
     margin-left: auto;
 }
 
 .lukeevans {
     background-color: yellowgreen;
-    margin-left: 6%;
+    margin-right: 6%;
     background-size: ;
 }
 
@@ -45,7 +34,12 @@ footer {
 
 p {
     float: inline-start;
+    color: whitesmoke;
     font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+ul {
+    color: white;
 }
 
 img {
@@ -80,20 +74,17 @@ h1 {
 }
 
 .header {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     line-height: 2;
 }
 
 .meteorengine {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
 }
 
 .h4 {

@@ -6,71 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" media="screen (max-width:980px)" href="./assets/css/style.css">
+    <link rel="stylesheet" media="screen (max-width:768px)" href="./assets/css/style.css">
+    <link rel="stylesheet" media="screen (max-width:640px)" href="./assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial scale=1">
 </head>
 
 <body>
-    <section class="header">
-        <video autoplay loop class="meteorengine" muted plays-inline>
+    <video autoplay loop class="meteorengine" muted plays-inline>
             <source src="assets/images/meteorengine.mp4" type="video/mp4">
         </video>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary top border-bottom">
-            <h2 class="lukeevans">Luke Evans</h2>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <section>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav m-auto">
-                        <li class="nav-item active" style="float:right">
-                            <a class="nav-link" href="./index.html">About </a>
-                        </li>
-                        <li class="nav-item" style="float:right">
-                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item" style="float:right">
-                            <a class="nav-link" href="./contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </nav>
-        <section class="container">
-            <div class="col-md-8">
-                <div class="page-header">
-                    <H1>About Me</H1>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="./assets/images/winterlulResize.png" alt="WintersFox" class="img-thumbnail">
-                        <p>
-                            Hello and welcome to my about me page! My name is Luke Evans. I was born and raised in Gold Hill NorthCarolina on a Tenessee walking horse farm. As I grew up I found I had a passion for video games. After leaving college I started immediately into the
-                            workforce working odd jobs within construction, the restauraunt industry, car sales, and event setup/management.
-                            <br><br> My obsession with videogames quickly became a burning desire after working in other industries. I took the leap to apply to my favorite video game company (EpicGames) for an entry level QA position working on Fortnite
-                            Save the world. Soon after I transitioned to the Performance and Memory team as a software tester to help develop and optomize Fortnite Battle Royale and Creative mode. I worked diligently for the past 2 years to help make
-                            Fortnite one of the best video games in the world.
-                            <br> <br> Some of the things I enjoy:
-                            <ul>
-                                <li>Memes</li>
-                                <li>Dancing</li>
-                                <li>Playing competitive First/Third person shooters</li>
-                                <li>Playing with my Doberman Bella-Mia</li>
-                                <li>Pop Culture</li>
-                                <li>Rain on a tin roof </li>
-                                <li>Competitive swimming</li>
-                            </ul>
-                        </p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary top border-bottom">
+        <a class="lukeevans navbar-brand" href="#">Luke Evans</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <div class="btn-nav">
+                        <a class="nav-link" href="./index.html">About </a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="container">
+        <div class="col-md-8">
+
+            <div class="page-header border-bottom">
+                <H1>About Me</H1>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="./assets/images/winterlulResize.png" alt="WintersFox" class="img-thumbnail">
+                    <p>
+                        Hello and welcome to my about me page! My name is Luke Evans. I was born and raised in Gold Hill NorthCarolina on a Tenessee walking horse farm. As I grew up I found I had a passion for video games. After leaving college I started immediately into the
+                        workforce working odd jobs within construction, the restauraunt industry, car sales, and event setup/management.
+                        <br><br> My obsession with videogames quickly became a burning desire after working in other industries. I took the leap to apply to my favorite video game company (EpicGames) for an entry level QA position working on Fortnite
+                        Save the world. Soon after I transitioned to the Performance and Memory team as a software tester to help develop and optomize Fortnite Battle Royale and Creative mode. I worked diligently for the past 2 years to help make Fortnite
+                        one of the best video games in the world.
+                        <br> <br> Some of the things I enjoy:
+                        <ul>
+                            <li>Memes</li>
+                            <li>Dancing</li>
+                            <li>Playing competitive First/Third person shooters</li>
+                            <li>Playing with my Doberman Bella-Mia</li>
+                            <li>Pop Culture</li>
+                            <li>Rain on a tin roof </li>
+                            <li>Competitive swimming</li>
+                        </ul>
+                    </p>
                 </div>
             </div>
-        </section>
-        <footer class="col-12 fixed-bottom border-top">
-            <p>
-                &copy;Copyright Luke Evans
-            </p>
-            <iframe width="0" height="0" src="https://youtuberepeater.com/watch?v=5zjgK1LfFmE#gsc.tab=0" frameborder="0" allowfullscreen></iframe>
-            <link rel="stylesheet" href="./assets/css/style.css">
-        </footer>
+        </div>
+    </section>
+    <footer class="col-12 fixed-bottom">
+        <p>
+            &copy;Copyright Luke Evans
+        </p>
+        <iframe width="0" height="0" src="https://youtuberepeater.com/watch?v=5zjgK1LfFmE#gsc.tab=0" frameborder="0" allowfullscreen></iframe>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </footer>
 
 </body>
 
