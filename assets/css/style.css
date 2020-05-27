@@ -10,8 +10,11 @@ body {
 
 .navbar-brand {
     background-color: yellowgreen;
-    margin-right: 10%;
-    background-size: ;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 28px;
+    text-align: justify;
 }
 
 footer {
@@ -46,6 +49,7 @@ ul {
     margin: 3%;
     margin-left: 5rem;
     padding-right: 1rem;
+    margin-bottom: 5%;
 }
 
 img {
@@ -66,6 +70,7 @@ button {
     margin: 3%;
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-bottom: 5%;
 }
 
 h1 {
@@ -75,7 +80,7 @@ h1 {
 .header {
     height: 100%;
     width: 100%;
-    line-height: 2;
+    line-height: 1;
 }
 
 .h4 {
@@ -88,7 +93,7 @@ h1 {
 
 .contact {
     background-color: white;
-    margin: 5%;
-    margin-left: 35rem;
+    margin: 3%;
+    margin-left: 20rem;
     padding-right: 1rem;
 }

@@ -1,14 +1,14 @@
 # ResponsiveDesign
 
-Deployed Website:
+* The URLs of the deployed applications
 https://thewintersfox.github.io/ResponsiveDesign/
 
-Repository
+* The URLs of the GitHub repositories
 https://github.com/TheWintersFox/ResponsiveDesign
 
 
 ## Description 
-The goal for this was to create a page that would be reactive to the type of device a user is viewing the webpage from.  This way it fits on all screen sizes without issue.  The layering of items would then collapse ontop of each other to create an easy to read streamline design for my portfolio.  Each item within the 
+The goal for this was to create a page that would be reactive to the type of device a user is viewing the webpage from.  This way it fits on all screen sizes without issue.  The layering of items would then collapse ontop of each other to create an easy to read streamline design for my portfolio. 
 
 ## Table of Contents (Optional)
 
