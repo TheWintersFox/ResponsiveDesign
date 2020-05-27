@@ -1,100 +1,116 @@
-body {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    line-height: 100%;
-    font-size: 20px;
-    text-align: justify
-}
-
-.navbar-brand {
-    background-color: yellowgreen;
-    text-align: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    font-size: 28px;
-    text-align: justify;
-}
-
-footer {
-    background-color: grey;
-    display: grid;
-    text-align: center;
-    font-size: 14px;
-    line-height: 2rem;
-    border-top: 6px solid yellowgreen;
-}
-
-.meteorengine {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-p {
-    float: inline-start;
-    color: whitesmoke;
-    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
-}
-
-ul {
-    color: white;
-}
-
-.container {
-    background-color: white;
-    margin: 3%;
-    margin-left: 5rem;
-    margin-bottom: 6rem;
-    padding-right: 1rem;
-    margin-bottom: 5%;
-}
-
-img {
-    display: inline-block;
-    float: left;
-    margin-right: 2%;
-}
-
-.row {
-    margin-top: 2%;
-}
-
-button {
-    margin-bottom: 1rem;
-}
-
-.card {
-    margin: 3%;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 5%;
-}
-
-h1 {
-    color: yellowgreen;
-}
-
-.header {
-    height: 100%;
-    width: 100%;
-    line-height: 1;
-}
-
-.h4 {
-    background-color: yellowgreen;
-}
-
-.form-group {
-    color: white;
-}
-
-.contact {
-    background-color: white;
-    margin: 3%;
-    margin-left: 20rem;
-    padding-right: 1rem;
-}
+        body {
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            line-height: 100%;
+            font-size: 20px;
+            text-align: justify
+        }
+        
+        .navbar-brand {
+            background-color: yellowgreen;
+            text-align: center;
+            padding-left: 5rem;
+            padding-right: 5rem;
+            font-size: 28px;
+            text-align: justify;
+        }
+        
+        footer {
+            background-color: grey;
+            display: grid;
+            text-align: center;
+            font-size: 14px;
+            line-height: 2rem;
+            border-top: 6px solid yellowgreen;
+        }
+        
+        .meteorengine {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        
+        p {
+            float: inline-start;
+            color: whitesmoke;
+            font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+        }
+        
+        ul {
+            color: white;
+        }
+        
+        .container {
+            background-color: white;
+            margin: 3%;
+            margin-left: 5rem;
+            margin-bottom: 6rem;
+            padding-right: 1rem;
+            margin-bottom: 5%;
+        }
+        
+        img {
+            display: inline-block;
+            float: left;
+            margin-right: 2%;
+        }
+        
+        .row {
+            margin-top: 2%;
+        }
+        
+        button {
+            margin-bottom: 1rem;
+        }
+        
+        .card {
+            margin: 3%;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            margin-bottom: 5%;
+        }
+        
+        h1 {
+            color: yellowgreen;
+        }
+        
+        .header {
+            height: 100%;
+            width: 100%;
+            line-height: 1;
+        }
+        
+        .h4 {
+            background-color: yellowgreen;
+        }
+        
+        .form-group {
+            color: white;
+        }
+        
+        .contact {
+            background-color: white;
+            margin: 3%;
+            margin-left: 20rem;
+            padding-right: 1rem;
+        }
+        
+        @media screen and (max-width: 980px) {
+            body (max-width: 980;
+            )
+        }
+        
+        @media screen and (max-width: 768px) {
+            body (max-width: 768px;
+            margin-top: 180px;
+            )
+        }
+        
+        @media screen and (max-width:640px) {
+            body maxwidth: 640px;
+            margin-top: 225px;
+        }
