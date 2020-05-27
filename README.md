@@ -10,7 +10,7 @@ https://github.com/TheWintersFox/ResponsiveDesign
 ## Description 
 The goal for this was to create a page that would be reactive to the type of device a user is viewing the webpage from.  This way it fits on all screen sizes without issue.  The layering of items would then collapse ontop of each other to create an easy to read streamline design for my portfolio. 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 Validation link on HTML: https://validator.w3.org/nu/?doc=https%3A%2F%2Fthewintersfox.github.io%2FResponsiveDesign%2F
 
