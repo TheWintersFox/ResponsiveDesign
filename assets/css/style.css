@@ -8,19 +8,10 @@ body {
     text-align: justify
 }
 
-.navbar-nav ul {
-    margin-left: auto;
-}
-
-.lukeevans {
+.navbar-brand {
     background-color: yellowgreen;
-    margin-right: 6%;
+    margin-right: 10%;
     background-size: ;
-}
-
-.page-header {
-    padding-top: 2%;
-    padding-bottom: 2%;
 }
 
 footer {
@@ -28,8 +19,16 @@ footer {
     display: grid;
     text-align: center;
     font-size: 14px;
-    line-height: 3rem;
-    border-top: 8px solid yellowgreen;
+    line-height: 2rem;
+    border-top: 6px solid yellowgreen;
+}
+
+.meteorengine {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 p {
@@ -42,17 +41,17 @@ ul {
     color: white;
 }
 
-img {
-    display: inline-block;
-    float: left;
-    margin-right: 2%;
-}
-
 .container {
     background-color: white;
     margin: 3%;
     margin-left: 5rem;
     padding-right: 1rem;
+}
+
+img {
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
 }
 
 .row {
@@ -79,14 +78,17 @@ h1 {
     line-height: 2;
 }
 
-.meteorengine {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-
 .h4 {
     background-color: yellowgreen;
+}
+
+.form-group {
+    color: white;
+}
+
+.contact {
+    background-color: white;
+    margin: 5%;
+    margin-left: 35rem;
+    padding-right: 1rem;
 }
