@@ -1,4 +1,19 @@
-# ResponsiveDesign
+# MyPortfolio
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
+
+    #Table of Contents 
+  * [Project Description](#project-description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Tests](#tests)
+  * [License](license)
+  * [Contributions](contributions)
+  * [Questions](#questions)
+
+  # Project Description
+This is a display of all of my past works, the main page takes you through my about me, there's also a contact page to get in contact with me, as well as my Portfolio page.
+
 
 * The URLs of the deployed applications
 https://thewintersfox.github.io/ResponsiveDesign/
@@ -33,3 +48,12 @@ https://www.youtube.com/watch?v=quFZ99fdKrk
 ## Tests
 
 Email Submission (WIP)
+
+# License
+Licensed under the [MIT License](https://spdx.org/licenses/MIT.html).
+# Contributions
+This project is currently not accepting any contributions.
+# Questions
+
+For additional information, please email the project manager [Luke Evans](https://github.com/TheWintersFox/): lukeevanstax@gmail.com.
+

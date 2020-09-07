@@ -8,9 +8,6 @@ body {
     text-align: justify
 }
 
-.p1 {
-    color: black;
-}
 
 .aboutmesection {
 border: 10px dotted white;
@@ -40,6 +37,11 @@ border-bottom: -5rem;
 }
 
 .goodreadme {
+    background-color: black; 
+    color: #007BFF;
+}
+
+.jsCodeQuiz {
     background-color: black; 
     color: #007BFF;
 }
@@ -74,6 +76,10 @@ p {
     float: inline-start;
     color: black;
     font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+}
+
+p1 {
+    color:white;
 }
 
 ul {
@@ -118,6 +124,10 @@ button {
 }
 
 h1 {
+    color: yellowgreen;
+}
+
+h3 {
     color: yellowgreen;
 }
 
