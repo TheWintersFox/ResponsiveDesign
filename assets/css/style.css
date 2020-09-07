@@ -46,6 +46,11 @@ border-bottom: -5rem;
     color: #007BFF;
 }
 
+.workdayPlanner {
+    background-color: black; 
+    color: #007BFF;
+}
+
 .subheading {
     background-color: black;
     text-align: center;
