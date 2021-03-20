@@ -10,13 +10,28 @@ body {
 
 
 .aboutmesection {
-border: 10px dotted white;
+border: 10px white;
 padding: 15px;
 background: black;
 background-clip: padding-box darkblue;
 border-bottom: -5rem;
-
 }
+
+.indexmiddle {
+    border: 10px white;
+    padding: 15px;
+    background: black;
+    background-clip: padding-box darkblue;
+    border-bottom: -5rem;
+    }
+
+.indexlast {
+        border: 10px white;
+        padding: 15px;
+        background: black;
+        background-clip: padding-box darkblue;
+        border-bottom: -5rem;
+        }
 
 .aboutmeborder {
     background-color: black;
@@ -83,6 +98,10 @@ p {
     font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
 }
 
+.indexfirst{
+
+}
+
 p1 {
     color:white;
 }
@@ -133,6 +152,7 @@ h1 {
 }
 
 h3 {
+    text-align:center;
     color: yellowgreen;
 }
 
